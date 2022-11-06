@@ -8,5 +8,7 @@ gen_logit = function(B_mat, x_vec){
     #     rel_probs = exp(log_rel_probs)
     # }
     prob_vec = rel_probs / sum(rel_probs)
+    # comment to test version control
+    # another version control test
     return(prob_vec)
 }
